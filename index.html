@@ -2,43 +2,43 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Brigadeiro Gourmet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Vendas</title>
   <style>
     body {
       margin: 0;
-      background-color: #000;
       font-family: Arial, sans-serif;
+      background-color: #000; /* Fundo preto para o restante da página */
       color: white;
       text-align: center;
     }
     .topo {
-      background: url('fotofundo1.jpg') no-repeat center center;
+      background: url('fotofundo1.jpg) no-repeat center center;
       background-size: cover;
-      padding: 250px 20px;
+      padding: 100px 20px;
     }
     .logo {
-      width: 250px;
-      margin: 0 auto 20px;
+      width: 200px; /* Ajuste o tamanho da logo conforme quiser */
+      margin-bottom: 20px;
     }
     h1 {
-      font-size: 26px;
+      font-size: 28px;
       margin: 20px 0 10px;
     }
     h2 {
-      font-size: 18px;
+      font-size: 20px;
       font-weight: normal;
-      margin: 10px 20px 30px;
-      color: #ccc;
+      margin: 10px 0 20px;
+    }
+    h2 strong {
+      color: #ffd700; /* Dourado para destacar */
     }
     .video-container {
       position: relative;
-      padding-bottom: 56.25%;
+      padding-bottom: 56.25%; /* Proporção 16:9 */
+      padding-top: 30px;
       height: 0;
       overflow: hidden;
-      margin: 20px;
-      border: 3px solid #ffc107;
-      border-radius: 10px;
     }
     .video-container iframe {
       position: absolute;
@@ -46,69 +46,60 @@
       left: 0;
       width: 100%;
       height: 100%;
+      border: 0;
     }
     .garantias {
-      margin: 30px 20px;
+      margin: 30px 0;
     }
     .garantias img {
-      width: 100%;
-      max-width: 400px;
+      width: 300px; /* Ajuste conforme o tamanho dos ícones de garantia */
     }
     .botao-compra {
-      background-color: #ffc107;
-      color: black;
-      padding: 15px 30px;
-      margin: 30px auto;
       display: inline-block;
-      font-size: 18px;
+      background: #00c853; /* Verde forte */
+      color: white;
+      padding: 15px 30px;
+      font-size: 20px;
       font-weight: bold;
+      border-radius: 5px;
       text-decoration: none;
-      border-radius: 8px;
+      margin-top: 20px;
+      transition: background 0.3s;
+    }
+    .botao-compra:hover {
+      background: #00e676; /* Tom mais claro no hover */
     }
     .mockup {
-      margin: 40px 20px;
+      padding: 40px 20px;
     }
     .mockup img {
-      width: 100%;
-      max-width: 400px;
-    }
-    /* Botão flutuante do WhatsApp */
-    .whatsapp-button {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      width: 60px;
-      height: 60px;
-      z-index: 100;
+      width: 300px; /* Ajuste o tamanho do mockup */
+      max-width: 90%;
     }
   </style>
 </head>
-
 <body>
 
   <div class="topo">
-    <img src="LOGO-BRIGADEIRO-768x370.png" alt="Brigadeiro Gourmet" class="logo">
+    <img src="LOGO-BRIGADEIRO-768x370.png" alt="Logo" class="logo">
+
     <h1>GANHE MUITO DINHEIRO COM BRIGADEIROS GOURMET</h1>
     <h2>Aprenda a trabalhar em casa fazendo brigadeiros gourmet e lucre muito com esse mercado! <strong>Com esse E-Book você vai descobrir o segredo.</strong></h2>
-  </div>
 
-  <div class="video-container">
-    <iframe src="https://player.vimeo.com/video/1075760354" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-  </div>
+    <div class="video-container">
+      <iframe src="https://vimeo.com/1075760354?share=copy" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
 
-  <div class="garantias">
-    <img src="ICONES-REGUA-1-1.png" alt="Garantia, Acesso Imediato, Pagamento Seguro">
-  </div>
+    <div class="garantias">
+      <img src="ICONES-REGUA-1-1.png" alt="Garantia, Acesso Imediato, Pagamento Seguro">
+    </div>
 
-  <a href="COLOQUE_AQUI_O_LINK_DE_COMPRA" class="botao-compra">QUERO COMPRAR AGORA O MEU E-BOOK</a>
+    <a href="COLOQUE_AQUI_O_LINK_DE_COMPRA" class="botao-compra">QUERO COMPRAR AGORA O MEU E-BOOK</a>
+  </div>
 
   <div class="mockup">
-    <img src="IMG-B-GOURMET-01-768x768.png" alt="Ebook Brigadeiro Gourmet">
+    <img src="IMG-B-GOURMET-01-768x768.png" alt="Mockup Ebook">
   </div>
-
-  <a href="https://wa.me/SEU_NUMERO_DE_WHATSAPP" class="whatsapp-button">
-    <img src="COLOQUE_AQUI_O_LINK_DO_ICON_WHATSAPP.png" alt="Fale conosco no WhatsApp">
-  </a>
 
 </body>
 </html>
