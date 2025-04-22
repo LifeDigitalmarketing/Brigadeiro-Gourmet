@@ -214,52 +214,120 @@
   }
 }
 </style>
-<section style="position: relative; background: linear-gradient(to bottom, black 0%, transparent 20%, transparent 80%, black 100%), url('fotofundo3.jpg') center/cover no-repeat; padding: 100px 20px; text-align: center; overflow: hidden;">
-  
-  <!-- Mockup -->
-  <img src="IMG-B-GOURMET-02-768x768.webp" alt="Mockup Produto" style="width: 350px; max-width: 90%; margin: 0 auto 40px; animation: zoomIn 1.5s ease-out;">
-  
-  <!-- Título -->
-  <h2 style="color: white; font-size: 28px; font-weight: 800; margin-bottom: 20px;">
-    QUEM PRECISA DESTE GUIA COMPLETO<br>
-    <span style="color: #f5a623;">ENSINANDO PASSO A PASSO?</span>
-  </h2>
+<section class="secao3">
+  <div class="conteudo-secao3">
+    <img src="mockup-ebook.png" alt="E-book Brigadeiro Gourmet" class="mockup-secao3">
 
-  <!-- Lista -->
-  <ul style="list-style: none; padding: 0; margin: 0 0 30px 0; text-align: left; max-width: 600px; margin-left: auto; margin-right: auto;">
-    <li style="color: white; font-size: 18px; margin-bottom: 15px; display: flex; align-items: center; animation: fadeInUp 1s ease-out;">
-      <span style="color: #f5a623; font-size: 20px; margin-right: 10px;">➔</span> Para quem está desempregado(a) e precisa de uma renda extra?
-    </li>
-    <li style="color: white; font-size: 18px; margin-bottom: 15px; display: flex; align-items: center; animation: fadeInUp 1.2s ease-out;">
-      <span style="color: #f5a623; font-size: 20px; margin-right: 10px;">➔</span> Para quem deseja ser seu próprio chefe?
-    </li>
-    <li style="color: white; font-size: 18px; margin-bottom: 15px; display: flex; align-items: center; animation: fadeInUp 1.4s ease-out;">
-      <span style="color: #f5a623; font-size: 20px; margin-right: 10px;">➔</span> Para quem quer trabalhar no conforto da sua casa?
-    </li>
-    <li style="color: white; font-size: 18px; margin-bottom: 15px; display: flex; align-items: center; animation: fadeInUp 1.6s ease-out;">
-      <span style="color: #f5a623; font-size: 20px; margin-right: 10px;">➔</span> Para pessoas que não sabem fazer brigadeiros gourmet?
-    </li>
-    <li style="color: white; font-size: 18px; margin-bottom: 15px; display: flex; align-items: center; animation: fadeInUp 1.8s ease-out;">
-      <span style="color: #f5a623; font-size: 20px; margin-right: 10px;">➔</span> Para quem não tem ideia de como vender brigadeiros?
-    </li>
-  </ul>
+    <h2>VEJA O QUE VOCÊ VAI RECEBER NESTE E-BOOK</h2>
 
-  <!-- Texto final -->
-  <p style="color: white; font-size: 20px; font-weight: 700; max-width: 700px; margin: 20px auto 0; animation: fadeInUp 2s ease-out;">
-    No geral, este produto é para todos que desejam empreender <span style="color: #f5a623;">e ter uma renda extra!</span>
-  </p>
+    <ul class="lista-secao3">
+      <li><span class="seta">➔</span> O que é brigadeiro gourmet?</li>
+      <li><span class="seta">➔</span> Itens essenciais para a produção de brigadeiros;</li>
+      <li><span class="seta">➔</span> Quanto você pode ganhar vendendo brigadeiros gourmet;</li>
+      <li><span class="seta">➔</span> As melhores receitas de brigadeiro gourmet;</li>
+      <li><span class="seta">➔</span> Mais de 20 receitas deliciosas para você aprender e lucrar;</li>
+      <li><span class="seta">➔</span> Como precificar seus brigadeiros corretamente.</li>
+      <li><span class="seta">➔</span> E muito mais...</li>
+    </ul>
 
+    <a href="#compra" class="botao-comprar">GARANTIR MEU E-BOOK AGORA</a>
+  </div>
 </section>
 
-<!-- CSS Animations -->
+<section class="secao3">
+  <div class="conteudo-secao3">
+    <img src="IMG-B-GOURMET-02-768x768.webp" alt="Brigadeiro Gourmet" class="mockup-secao3">
+
+    <h2>QUEM PRECISA DESTE GUIA COMPLETO <span class="destaque">ENSINANDO PASSO A PASSO?</span></h2>
+
+    <ul class="lista-secao3">
+      <li><span class="seta">➔</span> Para quem está desempregado(a) e precisa de uma renda extra?</li>
+      <li><span class="seta">➔</span> Para quem deseja ser seu próprio chefe?</li>
+      <li><span class="seta">➔</span> Para quem quer trabalhar no conforto da sua casa?</li>
+      <li><span class="seta">➔</span> Para pessoas que não sabem fazer brigadeiros gourmet?</li>
+      <li><span class="seta">➔</span> Para quem não tem ideia de como vender brigadeiros?</li>
+    </ul>
+
+    <p class="texto-final">
+      <strong>No geral, este produto é para todos que desejam empreender<br> 
+      <span class="destaque">e ter uma renda extra!</span></strong>
+    </p>
+  </div>
+</section>
+
 <style>
-@keyframes zoomIn {
-  0% { transform: scale(0.8); opacity: 0; }
-  100% { transform: scale(1); opacity: 1; }
+.secao3 {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url('fotofundo3.jpg') no-repeat center center/cover;
+  padding: 50px 20px;
+  text-align: center;
+  color: #fff;
 }
 
-@keyframes fadeInUp {
-  0% { opacity: 0; transform: translateY(30px); }
-  100% { opacity: 1; transform: translateY(0); }
+.conteudo-secao3 {
+  max-width: 800px;
+  margin: 0 auto;
 }
-</style>
+
+.mockup-secao3 {
+  width: 350px;
+  max-width: 90%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.destaque {
+  color: #FFC107; /* cor amarela dourada */
+}
+
+.lista-secao3 {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.lista-secao3 li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.seta {
+  color: #FFC107;
+  font-size: 22px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.lista-secao3 li:hover .seta {
+  transform: translateX(5px);
+}
+
+.botao-comprar {
+  display: inline-block;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #FFD700, #FFC107);
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.botao-comprar:hover {
+  background: linear-gradient(90deg, #FFC107, #FFD700);
+  transform: scale(1.05);
+}
+
+.texto-final {
+  font-size: 18px;
+  margin-top: 30px;
+}
+  </style>
